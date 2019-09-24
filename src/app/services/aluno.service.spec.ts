@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AlunoServiceService } from './aluno-service.service';
+import { AlunoService } from './aluno.service';
 
 describe('AlunoServiceService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: AlunoServiceService = TestBed.get(AlunoServiceService);
+    const service: AlunoService = TestBed.get(AlunoService);
     expect(service).toBeTruthy();
   });
 });
